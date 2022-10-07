@@ -59,7 +59,7 @@ main > * {
 .airplane-card {
   padding: 1rem;
   width: 15rem;
-  margin: 1rem 1rem 1rem 0; /* No left margin */
+  margin: 2rem 2rem 2rem 0; /* No left margin */
 }
 
 .airplane-card img {
@@ -71,12 +71,26 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
- @media  and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
   .airplane-list-container{
-    background-color: red;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
   }
-  
+  .airplane-card{
+    margin: 10px 10px 10px 0;
+    width: 35rem;
  }
- 
+ nav{
+  display: flex;
+  align-items: flex-start;
+ }
+ header a {
+  display: flex;
+  align-items: flex-start;
+  font-size: smaller;
+ }
+ /* airplane list */
+main > * {
+  margin: 3rem;
+}
