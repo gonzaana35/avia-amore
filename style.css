@@ -69,5 +69,9 @@ main > * {
 }
 
 /* media queries */
+@media screen and (max-width:500px){
+border-color: orange;
+}
+  
 
 /* YOUR CODE HERE */
